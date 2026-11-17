@@ -1,0 +1,12 @@
+COMO GERAR O APK PELO GITHUB
+
+1. No GitHub, crie um repositório novo (pode ser privado).
+2. Envie TODOS os arquivos desta pasta, incluindo a pasta oculta ".github".
+   (Se o envio pelo site não levar a pasta .github, use "Add file > Create new file",
+   digite o nome  .github/workflows/build.yml  e cole o conteúdo do arquivo.)
+3. Abra a aba "Actions". O build começa sozinho (ou clique em "Build APK > Run workflow").
+4. Quando ficar verde (uns 3 a 6 minutos), abra a execução e baixe "VendasCar-APK" em "Artifacts".
+5. Extraia o ZIP, copie o arquivo app-debug.apk para a multimídia (pendrive) e instale.
+   Pode ser preciso permitir "instalar de fontes desconhecidas".
+
+Para mudar o app, edite app/src/main/assets/index.html e envie de novo.
